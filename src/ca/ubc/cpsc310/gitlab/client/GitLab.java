@@ -55,7 +55,9 @@ public class GitLab implements EntryPoint {
 	 */
 	public void displayUsers(List<IUser> users)
 	{
-
+		System.out.println("conflit creation2");
+		System.out.println("test");
+		
 		RootPanel.get("root").add(flexTable);
 		
 		flexTable.setText(0,0, "Name");
